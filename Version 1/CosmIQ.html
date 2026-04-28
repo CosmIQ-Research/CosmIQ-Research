@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CosmIQ Dashboard Mockup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #2d2d7a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto auto auto;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .map {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      height: 300px;
+    }
+    .sustainability {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+    .explorer {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    .inclusivity {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+    .news {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
+    .personalization {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CosmIQ Global Dashboard</h1>
+  </header>
+  <div class="dashboard">
+    <div class="card map">
+      <h2>Global Ingredient Risk Map</h2>
+      <p>Interactive visualization showing ingredient toxicity by region.</p>
+    </div>
+    <div class="card sustainability">
+      <h2>Sustainability Scorecard</h2>
+      <p>Greenwashing alerts and packaging impact analysis.</p>
+    </div>
+    <div class="card explorer">
+      <h2>Product & Ingredient Explorer</h2>
+      <p>Search by brand, ingredient, or target skin/hair type.</p>
+    </div>
+    <div class="card inclusivity">
+      <h2>Inclusivity Index</h2>
+      <p>Foundation shade and afro hair care availability by region.</p>
+    </div>
+    <div class="card personalization">
+      <h2>User Personalization</h2>
+      <p>Login-based saved searches, preferences, and alerts.</p>
+    </div>
+    <div class="card news">
+      <h2>News & Ingredient Updates</h2>
+      <p>Recent ingredient bans, research, and recalls.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+name: cosmiq
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+
+  # ── Data handling
+  - pandas
+  - numpy
+
+  # ── Database
+  - psycopg2
+  - sqlalchemy
+
+  # ── Web / API
+  - flask
+  - fastapi
+  - uvicorn
+  - requests
+  - beautifulsoup4
+  - lxml
+
+  # ── ML / AI
+  - scikit-learn
+
+  # ── Geospatial
+  - geopandas
+  - folium
+  - shapely
+
+  # ── Visualization / Frontend
+  - plotly
+  - streamlit
+
+  # ── Dev tools
+  - jupyter
+  - ipykernel
+  - python-dotenv
+
+  - pip:
+    - tensorflow
+    - transformers
+    - torch
+    - pymongo
+    - anthropic
+    - httpx

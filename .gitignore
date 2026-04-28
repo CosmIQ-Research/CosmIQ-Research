@@ -1,0 +1,10 @@
+Documents Ideas/
+Version 1/Datasets/
+__pycache__/
+*.pyc
+.env
+*.csv
+.DS_Store
+Thumbs.db
+env/
+.conda/
